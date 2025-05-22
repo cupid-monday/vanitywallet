@@ -1,8 +1,15 @@
 {
-  "name": "wallet-checker",
+  "name": "vanitywallet",
   "version": "1.0.1",
-  "type": "module",
+  "description": "XRPL vanity wallet generator",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "Cupid Monday",
+  "license": "MIT",
   "dependencies": {
-    "xrpl": "^2.7.0"
+    "xrpl": "^2.8.3"
   }
 }
